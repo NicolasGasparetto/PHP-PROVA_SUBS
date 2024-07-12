@@ -1,0 +1,16 @@
+CREATE SCHEMA `php` ;
+
+
+
+CREATE TABLE `php`.`prova_subs` (
+  `idCliente` INT NOT NULL,
+  `nomeCompleto` VARCHAR(50) NULL,
+  `cpf` VARCHAR(45) NULL,
+  `dataAniversario` VARCHAR(45) NULL,
+  `profissao` VARCHAR(20) NULL,
+  `email` VARCHAR(45) NULL,
+  `faleSobreVoce` VARCHAR(45) NULL,
+  `telefone` VARCHAR(45) NULL,
+  PRIMARY KEY (`idCliente`));
+
+
